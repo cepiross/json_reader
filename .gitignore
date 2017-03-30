@@ -1,0 +1,9 @@
+# Exclude folders
+.vscode
+
+# Exclude obj/dep files
+*.o
+*.d
+
+# Exclude binaries
+json_reader
