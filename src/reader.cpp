@@ -101,8 +101,8 @@ int main(int argc, char** argv) {
     gflags::SetUsageMessage("command line brew\n"
             "usage: json_reader <command> <args>\n\n"
             "commands: \n"
-            "  scheme         retrieve 1st element in json"
-            "  reshape        change JSON to readable text");
+            "  scheme         retrieve 1st element in json\n"
+            "  reshape        change JSON to readable text\n");
     // Google flags.
     gflags::ParseCommandLineFlags(&argc, &argv, true);
     // Google logging.
